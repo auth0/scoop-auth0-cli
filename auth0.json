@@ -1,0 +1,18 @@
+{
+    "version": "0.4.3",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/auth0/auth0-cli/releases/download/v0.4.3/auth0-cli_0.4.3_Windows_x86_64.zip",
+            "bin": [
+                "auth0.exe"
+            ],
+            "hash": "a296c3572f837a443826ac724914fdd92fbe751b270cfb9c260cd0edbf5b03d6"
+        }
+    },
+    "homepage": "https://github.com/auth0/auth0-cli",
+    "license": "MIT",
+    "description": "Supercharge your developer workflow.",
+    "post_install": [
+        "Write-Host 'Thanks for installing the Auth0 CLI'"
+    ]
+}
