@@ -1,12 +1,12 @@
 {
-    "version": "0.10.3",
+    "version": "0.11.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/auth0/auth0-cli/releases/download/v0.10.3/auth0-cli_0.10.3_Windows_x86_64.zip",
+            "url": "https://github.com/auth0/auth0-cli/releases/download/v0.11.0/auth0-cli_0.11.0_Windows_x86_64.zip",
             "bin": [
                 "auth0.exe"
             ],
-            "hash": "857489379eba307e6e66ba08ac9587cf48b1fe8f387d40b5f0c9aed3672582e3"
+            "hash": "3cff86480b04dbae0431f617cdd9f328c2fe758dd3a0a21918233ad975b20ea6"
         }
     },
     "homepage": "https://auth0.github.io/auth0-cli",
