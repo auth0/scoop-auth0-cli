@@ -1,5 +1,5 @@
 {
-    "version": "1.7.2",
+    "version": "1.8.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/auth0/auth0-cli/releases/download/v1.8.0/auth0-cli_1.8.0_Windows_x86_64.zip",
