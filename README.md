@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/auth0/scoop-auth0-cli)
+
 # Auth0 CLI Scoop App Manifest
 
 This repository contains the Scoop app manifest to install the [Auth0 CLI](https://github.com/auth0/auth0-cli).
