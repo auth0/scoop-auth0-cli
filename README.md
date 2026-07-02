@@ -4,13 +4,35 @@
 
 This repository contains the Scoop app manifest to install the [Auth0 CLI](https://github.com/auth0/auth0-cli).
 
-> Note: The CLI is currently in an experimental state and is not supported by Auth0. It has not had a complete security review, and we do not recommend using it to interact with production tenants.
-
 ### Installation
+
+First, add the bucket:
 
 ```sh
 $ scoop bucket add auth0 https://github.com/auth0/scoop-auth0-cli.git
+```
+
+#### Stable
+
+Install the latest stable release:
+
+```sh
 $ scoop install auth0
+```
+
+#### Beta
+
+A beta track is also available for previewing new features before they land in the stable release. Beta builds are pre-release and may be unstable — do not use them against production tenants.
+
+```sh
+$ scoop install auth0-beta
+```
+
+Both tracks provide the `auth0` command, so install one or the other — not both at the same time. To switch from stable to beta, uninstall first:
+
+```sh
+$ scoop uninstall auth0
+$ scoop install auth0-beta
 ```
 
 ## What is Auth0?
